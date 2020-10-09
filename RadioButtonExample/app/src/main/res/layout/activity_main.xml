@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5B3B3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CAC8C8"
+        tools:context=".MainActivity">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="381dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+            <RadioButton
+                android:id="@+id/color1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blue"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/color2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yellow"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/color3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Green"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/color4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Red"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/color5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pink"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="24dp"
+            android:background="#C5C4C3"
+            android:text="Select your favourite color"
+            android:textColor="#0A0A0B"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="175dp"
+            android:layout_height="42dp"
+            android:background="#90D9FA"
+            android:text="SUMBIT"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
