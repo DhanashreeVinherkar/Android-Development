@@ -38,60 +38,70 @@ public class MainActivity extends AppCompatActivity {
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //answerTV.setText("");
                 answerTV.setText(answerTV.getText()+"0");
             }
         });
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //answerTV.setText("");
                 answerTV.setText(answerTV.getText()+"1");
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //answerTV.setText("");
                 answerTV.setText(answerTV.getText()+"2");
             }
         });
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //answerTV.setText("");
                 answerTV.setText(answerTV.getText()+"3");
             }
         });
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //answerTV.setText("");
                 answerTV.setText(answerTV.getText()+"4");
             }
         });
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //answerTV.setText("");
                 answerTV.setText(answerTV.getText()+"5");
             }
         });
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //answerTV.setText("");
                 answerTV.setText(answerTV.getText()+"6");
             }
         });
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //answerTV.setText("");
                 answerTV.setText(answerTV.getText()+"7");
             }
         });
         button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //answerTV.setText("");
                 answerTV.setText(answerTV.getText()+"8");
             }
         });
         button9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //answerTV.setText("");
                 answerTV.setText(answerTV.getText()+"9");
             }
         });
